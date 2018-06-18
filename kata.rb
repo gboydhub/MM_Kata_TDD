@@ -20,5 +20,5 @@ end
 
 def array_replace_kata(arr)
     unless arr.is_a?(Array); return false; end
-    true
+    arr
 end

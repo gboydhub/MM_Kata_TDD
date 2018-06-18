@@ -38,7 +38,6 @@ class Test_kata < Test::Unit::TestCase
         assert_not_nil(testarray)
 
         assert_false(array_replace_kata(1))
-        assert_true(array_replace_kata(testarray))
 
         newarray = array_replace_kata(testarray)
         assert_equal(newarray[1], 1)
