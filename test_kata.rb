@@ -21,5 +21,7 @@ class Test_kata < Test::Unit::TestCase
 
         assert_equal(get_kata(574), 574)
         assert_equal(get_kata(935), "minds")
+
+        assert_equal(get_kata(-32), 0)
     end
 end
