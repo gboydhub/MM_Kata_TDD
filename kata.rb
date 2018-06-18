@@ -17,3 +17,7 @@ def kata_array(asize)
     end
     arr
 end
+
+def array_replace_kata()
+    true
+end
