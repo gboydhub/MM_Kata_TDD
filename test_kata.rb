@@ -13,5 +13,7 @@ class Test_kata < Test::Unit::TestCase
 
     def test_kata_replace
         assert_equal(get_kata(3), "mined")
+        assert_equal(get_kata(6), "mined")
+        assert_equal(get_kata(5), "minds")
     end
 end
