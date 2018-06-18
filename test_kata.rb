@@ -47,5 +47,6 @@ class Test_kata < Test::Unit::TestCase
         assert_equal(newarray[60], "mined minds")
         assert_equal(newarray[63], "mined")
         assert_equal(newarray[65], "minds")
+        assert_equal(newarray[94], 94)
     end
 end
