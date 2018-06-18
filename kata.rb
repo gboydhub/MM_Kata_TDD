@@ -9,3 +9,7 @@ def get_kata(val)
     end
     val
 end
+
+def kata_array()
+    1
+end
