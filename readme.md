@@ -1,0 +1,1 @@
+# Mined Minds Kata [TDD]
