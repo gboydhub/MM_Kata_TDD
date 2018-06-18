@@ -11,7 +11,9 @@ def get_kata(val)
 end
 
 def kata_array()
-    arr = [0..100]
-    arr[2] = 2
+    arr = Array.new(100)
+    arr.each_with_index do |v, i|
+        arr[i] = i
+    end
     arr
 end
