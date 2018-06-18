@@ -20,5 +20,8 @@ end
 
 def array_replace_kata(arr)
     unless arr.is_a?(Array); return false; end
+    arr.each_with_index do |v, i|
+        arr[i] = get_kata(i)
+    end
     arr
 end
