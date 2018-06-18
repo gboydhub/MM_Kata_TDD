@@ -27,5 +27,6 @@ class Test_kata < Test::Unit::TestCase
 
     def test_array_building
         assert_not_nil(kata_array)
+        assert_equal(kata_array[2], 2)
     end
 end
