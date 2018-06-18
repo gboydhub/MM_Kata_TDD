@@ -17,5 +17,6 @@ class Test_kata < Test::Unit::TestCase
         assert_equal(get_kata(5), "minds")
         assert_equal(get_kata(10), "minds")
         assert_equal(get_kata(15), "mined minds")
+        assert_equal(get_kata(30), "mined minds")
     end
 end
