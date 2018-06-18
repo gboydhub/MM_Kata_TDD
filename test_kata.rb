@@ -32,4 +32,9 @@ class Test_kata < Test::Unit::TestCase
         assert_equal(kata_array(10).length, 10)
         assert_equal(kata_array(2837)[1324], 1324)
     end
+
+    def test_array_kata
+        testarray = kata_array(100)
+        assert_not_nil(testarray)
+    end
 end
