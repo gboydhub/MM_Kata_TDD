@@ -41,5 +41,6 @@ class Test_kata < Test::Unit::TestCase
 
         newarray = array_replace_kata(testarray)
         assert_equal(newarray[1], 1)
+        assert_equal(newarray[3], "mined")
     end
 end
