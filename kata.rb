@@ -1,3 +1,3 @@
 def get_kata(val)
-    1
+    val
 end
