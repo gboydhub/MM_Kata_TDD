@@ -10,8 +10,8 @@ def get_kata(val)
     val
 end
 
-def kata_array()
-    arr = Array.new(100)
+def kata_array(asize)
+    arr = Array.new(asize)
     arr.each_with_index do |v, i|
         arr[i] = i
     end
