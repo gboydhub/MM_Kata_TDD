@@ -1,4 +1,5 @@
 def get_kata(val)
+    if val <= 0 then; return 0; end
     if val % 15 == 0 then
         return "mined minds"
     elsif val % 3 == 0 then
