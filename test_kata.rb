@@ -36,5 +36,7 @@ class Test_kata < Test::Unit::TestCase
     def test_array_kata
         testarray = kata_array(100)
         assert_not_nil(testarray)
+
+        assert_true(array_replace_kata())
     end
 end
