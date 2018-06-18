@@ -11,5 +11,7 @@ def get_kata(val)
 end
 
 def kata_array()
-    1
+    arr = [0..100]
+    arr[2] = 2
+    arr
 end
