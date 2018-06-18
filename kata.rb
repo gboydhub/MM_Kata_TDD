@@ -18,6 +18,7 @@ def kata_array(asize)
     arr
 end
 
-def array_replace_kata()
+def array_replace_kata(arr)
+    unless arr.is_a?(Array); return false; end
     true
 end
